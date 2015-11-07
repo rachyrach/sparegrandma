@@ -103,12 +103,14 @@ nav #nav:checked ~ label b i:nth-child(1) {
   transform: rotate(45deg) translate(6px, 11px);
 }
 nav #nav:checked ~ label b i:nth-child(2) {
+  display: none;
   opacity: 0;
 }
 nav #nav:checked ~ label b i:nth-child(3) {
   transform: rotate(-45deg) translate(10px, -14px);
 }
 nav #nav:checked ~ menu {
+  display: block;
   opacity: 1;
 }
 
