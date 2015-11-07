@@ -482,8 +482,7 @@ font: .5em "fira-mono", sans-serif;
     width:100%;
     border: 3px solid #000;
     margin-bottom:20px;
-    padding:10px 0;
-    border-radius: 10px; 
+    padding:10px 0; 
         background-color: #fff;
         padding-left: 10px;
 }
@@ -516,7 +515,7 @@ font: .5em "fira-mono", sans-serif;
     text-transform: uppercase;
     margin-bottom:0px;
     background-color: #000;
-    -moz-border-radius:8px;
+
 }
  
 #contact-form #submit-button:hover {
@@ -544,9 +543,6 @@ font: .5em "fira-mono", sans-serif;
     margin:25px 0px;
     display:block;
     width:437px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    border-radius:8px;
     display:none;
 }
  
@@ -573,9 +569,6 @@ font: .5em "fira-mono", sans-serif;
     margin:25px 0px;
     display:block;
     width:437px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
-    border-radius:8px;
     background:#fff;
     font-weight:bold;
     display:none;

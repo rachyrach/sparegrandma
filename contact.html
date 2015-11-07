@@ -3,7 +3,50 @@ layout: default
 description: Contact
 ---
 
+<div class="row margin-large">
+    <div class="col-md-7"> <h1>Contact Us</h1></br></div>
+     <div class="col-md-5">  <img src="{{ site.baseurl }}/images/phone.gif" width="150px" height="auto"/></br></div>
+<div class="col-sm-5">
+ <h2>Grandma's on Social Media</h2>
+<a href="https://twitter.com/sparegrandma/" target="_blank"><img src="{{ site.baseurl }}/images/twitter.jpg" width="50px" height="auto"/></a>
+<a href="https://instagram.com/sparegrandma/" target="_blank"><img src="{{ site.baseurl }}/images/instagram.jpg" width="50px" height="auto"/></a></div>
 
+<div class="col-md-7">
+   
+            <div id="contact-form" class="clearfix">
+<form id="contactform" method="POST">
+    
+        <input type="text" id="name" name="name" value="" placeholder="Name*" required="required"  />
+  
+        <input type="email" id="email" name="_replyto" value="" placeholder="Email*" required="required" />
+         
+        <input type="tel" id="telephone" name="telephone" value="" placeholder="Phone Number"/>
+        
+        <textarea id="message" name="message" placeholder="Message*" required="required" data-maxlength="500"></textarea>
+         
+        <span id="loading"></span>
+        <input type="submit" value="submit" id="submit-button" />
+        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+    
+   
+    <input type="hidden" name="_subject" value="Shiny and Ned Contact" />
+    <input type="text" name="_gotcha" style="display:none" />
+    </form>
+                <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'rrbinagia' + '@' + 'gmail' + '.' + 'com');
+</script>
+            
+                 </div> 
+            </div>
+    </div>
+</div>
+
+
+
+
+
+</br>
     
     <div class="col-sm-12">
     <h1>Staff</h1></br></div>
@@ -61,43 +104,3 @@ description: Contact
         </div>
 
 
-<div class="row margin-large">
-   
-    </br>
-      <h1>Contact Us</h1>
-<div class="col-sm-4">
-    <img src="{{ site.baseurl }}/images/phone.gif" width="100px" height="auto"/></br>
-    <h2>Grandma's on Social Media</h2>
-<a href="https://twitter.com/sparegrandma/" target="_blank"><img src="{{ site.baseurl }}/images/twitter.jpg" width="50px" height="auto"/></a>
-<a href="https://instagram.com/sparegrandma/" target="_blank"><img src="{{ site.baseurl }}/images/instagram.jpg" width="50px" height="auto"/></a></div>
-
-<div class="col-md-8">
-   
-            <div id="contact-form" class="clearfix">
-<form id="contactform" method="POST">
-    
-        <input type="text" id="name" name="name" value="" placeholder="Name*" required="required"  />
-  
-        <input type="email" id="email" name="_replyto" value="" placeholder="Email*" required="required" />
-         
-        <input type="tel" id="telephone" name="telephone" value="" placeholder="Phone Number"/>
-        
-        <textarea id="message" name="message" placeholder="Message*" required="required" data-maxlength="500"></textarea>
-         
-        <span id="loading"></span>
-        <input type="submit" value="submit" id="submit-button" />
-        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
-    
-   
-    <input type="hidden" name="_subject" value="Shiny and Ned Contact" />
-    <input type="text" name="_gotcha" style="display:none" />
-    </form>
-                <script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'rrbinagia' + '@' + 'gmail' + '.' + 'com');
-</script>
-            
-                 </div> 
-            </div>
-    </div>
-</div>
