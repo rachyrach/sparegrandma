@@ -490,8 +490,8 @@ font: .5em "fira-mono", sans-serif;
 #contact-form input:focus, 
 #contact-form select:focus, 
 #contact-form textarea:focus {
-       border: 3px solid #ded832;
-    background-color: #69af66;
+       border: 3px solid #e72d00;
+    background-color: #fff;
 }
  
 #contact-form textarea {
