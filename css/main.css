@@ -7,7 +7,7 @@ body {
   background: #fff;
 }
 nav input {
-  display: hidden;
+  display: none;
 }
 nav label {
   position: absolute;
