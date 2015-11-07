@@ -46,6 +46,7 @@ description: Contact
 <!-------------------------- Rachel ----------------------------> 
 
 <div class="row margin-large">
+    <h2>Contact Us</h2>
     <div class="col-sm-4">
         <img src="{{ site.baseurl }}/images/rachel.png" width="220" height="auto"/>
        </div>
@@ -58,3 +59,40 @@ description: Contact
     
   </div>
         </div>
+
+
+<div class="row">
+<div class="col-sm-4">
+    <img src="{{ site.baseurl }}/images/phone.gif" width="100px" height="auto"/></div></br>
+    <img src="{{ site.baseurl }}/images/twitter.jpg" width="50px" height="auto"/></div>
+<img src="{{ site.baseurl }}/images/instagram.jpg" width="50px" height="auto"/></div>
+<div class="col-md-8">
+   
+            <div id="contact-form" class="clearfix">
+<form id="contactform" method="POST">
+    
+        <input type="text" id="name" name="name" value="" placeholder="Name*" required="required"  />
+  
+        <input type="email" id="email" name="_replyto" value="" placeholder="Email*" required="required" />
+         
+        <input type="tel" id="telephone" name="telephone" value="" placeholder="Phone Number"/>
+        
+        <textarea id="message" name="message" placeholder="Message*" required="required" data-maxlength="500"></textarea>
+         
+        <span id="loading"></span>
+        <input type="submit" value="submit" id="submit-button" />
+        <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+    
+   
+    <input type="hidden" name="_subject" value="Shiny and Ned Contact" />
+    <input type="text" name="_gotcha" style="display:none" />
+    </form>
+                <script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'rrbinagia' + '@' + 'gmail' + '.' + 'com');
+</script>
+            
+                 </div> 
+            </div>
+    </div>
+</div>
