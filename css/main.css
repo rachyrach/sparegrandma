@@ -86,7 +86,13 @@ nav menu li:first-child {
 }
 
 nav menu li a {
-    display: none;
+  padding: 20px 0 3px 0;
+  font: 18px "fira-mono",sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  display: none;
 }
 nav menu li a:hover {
   border-bottom: 3px #e72d00 solid;
@@ -107,13 +113,7 @@ nav #nav:checked ~ menu {
 }
 
 nav #nav:checked ~ menu li a {
-  padding: 20px 0 3px 0;
-  font: 18px "fira-mono",sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: left;
-  color: #fff;
-  display: block;
+display: block !important;
 }
 
 /* ------------------------- HOME PAGE  ------------------------- */
