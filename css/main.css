@@ -74,7 +74,6 @@ nav menu {
   z-index: 998;
   top: 20px;
     right: 20px;
-    display: none;
 }
 nav menu li {
   margin: 0 70px 0 50px;
@@ -93,8 +92,7 @@ nav menu li a {
   text-decoration: none;
   text-align: left;
   color: #fff;
-  display: block;
-
+    display: none;
 }
 nav menu li a:hover {
   border-bottom: 3px #e72d00 solid;
@@ -104,7 +102,6 @@ nav #nav:checked ~ label b i:nth-child(1) {
   transform: rotate(45deg) translate(6px, 11px);
 }
 nav #nav:checked ~ label b i:nth-child(2) {
-  display: none;
   opacity: 0;
 }
 nav #nav:checked ~ label b i:nth-child(3) {
