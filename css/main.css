@@ -219,7 +219,17 @@ left: -.5%;
 
 
 @media (max-width: 650px) {
+
+.home-logo {
+    position: relative;
+    max-width: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: -2000;
     
+}
+
+
 
 .bookshelf {
     top: 20%;
@@ -382,6 +392,7 @@ p {
 @media (max-width: 650px) {
  h1 {
      font-size: 4em;
+     font: "League-Gothic", sans-serif;
 }
 }
 
@@ -421,4 +432,20 @@ font: .65em "fira-mono", sans-serif;
     z-index:3000;
     
     
+}
+
+
+@media (max-width: 650px) {
+.copyright {
+  color: rgba(255,100,100,.9);
+font: .5em "fira-mono", sans-serif; 
+    position:fixed;
+    text-align: right;
+    bottom: 0;
+    right: 0px;
+    z-index:3000;
+    
+    
+}	
+}
 }
