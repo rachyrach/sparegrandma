@@ -24,7 +24,7 @@ description: Write Ups
         <h2>{{ post.title }}</h2>
         
         <p>{{ post.content | strip_html | truncatewords:40}}</p>
-            <a class="sg-btn" href="{{ post.url }}">Read More...</a><br><br>
+            <a class="sg-btn" href="{{ base.url }}{{ post.url }}">Read More...</a><br><br>
             </br>
     </li>
   {% endfor %}
