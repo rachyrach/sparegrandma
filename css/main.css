@@ -8,6 +8,9 @@ body {
 }
 nav input {
   display: none;
+  color: #fff;
+  background-color: #fff;
+  border: none;
 }
 nav label {
   position: absolute;
