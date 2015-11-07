@@ -3,7 +3,7 @@ description: "Indie Music Blog hosted by Michael Core and Dylan Clay"
 
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url: "rachyrach.github.io/sparegrandma"
+url: "http://rachyrach.github.io/sparegrandma"
 baseurl: "/sparegrandma"
 
 paginate: 10
