@@ -195,6 +195,7 @@ display: block !important;
 .image-title { 
     position: absolute;
     top: 40%;
+    left: 15%;
     text-align: center; 
     background-color: #e72d00;
     padding: 12px 30px !important;
@@ -204,7 +205,6 @@ display: block !important;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-   
     opacity: 0;
     z-index: 800;
 }
@@ -384,9 +384,6 @@ p {
     padding-bottom: 10px;
 }
 
-.title {
-    po
-}
 
 .page-title {   
  margin: 20px 0;   
@@ -398,8 +395,7 @@ p {
 
 @media (max-width: 650px) {
  h1 {
-     font-size: 4em;
-     font: "League-Gothic", sans-serif;
+     font: 4em "League Gothic" sans-serif;
 }
 }
 
