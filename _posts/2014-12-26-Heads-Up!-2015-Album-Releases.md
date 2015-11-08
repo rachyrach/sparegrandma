@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HEADS UP: 2015 ALBUM RELEASES"
+title: "Heads Up: 2015 Album Releases"
 ---
 
 The year 2014 has just about ran its course. We’ve had a few killer late in the year releases (D’Angelo, Ariel Pink, and maybe Chance the Rapper), but we’ll take note of those late releases and move on. Here are some expected 2015 releases that should keep fans excited.

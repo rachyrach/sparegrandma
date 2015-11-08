@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2014 HONORABLE MENTIONS"
+title: "2014 Honorable Mentions"
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UNDERRATED RAP RELEASES OF 2014"
+title: "Underrated Rap Releases of 2014"
 ---
 
 2014 has been a mostly abysmal year in major label rap releases with a few decent exceptions (notably YG’s My Krazy Life and Logic’s Under Pressure). That being said, the underground has provided a wealth of exceptional projects many of which were overlooked or not given the promotion they deserved.  Here’s a brief list of 5 projects that may have flown under your radar, but will more than satisfy your rap fix for 2014.
