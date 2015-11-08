@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SPARE GRANDMA'S TOP ALBUMS OF 2014"
+title: "Spare Grandma's Top Albums of 2014"
 ---
 
 
