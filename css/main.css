@@ -195,7 +195,7 @@ display: block !important;
 .image-title { 
     position: absolute;
     top: 40%;
-    left: 15%;
+    left: 20%;
     text-align: center; 
     background-color: #e72d00;
     padding: 12px 30px !important;
@@ -209,9 +209,7 @@ display: block !important;
     z-index: 800;
 }
 
-.bookshelf .image-title {
-left: -.5%;
-}
+
 
 .image-title:hover{
     display: inline-block;
@@ -287,11 +285,30 @@ left: -.5%;
     }
 
     
-    .image-title {
-     font-size: .9em;
 
-    }
 
+    .image-title { 
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-align: center; 
+    background-color: #e72d00;
+    padding: 3px 10px !important;
+    color: #fff !important;
+    font-family:"fira-mono",sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 1;
+    z-index: 800;
+}
+
+
+
+  
+    
  }
     
 
