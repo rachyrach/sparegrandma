@@ -252,7 +252,7 @@ display: block !important;
 
 
 .table {
-    top: 20%;
+    top: 15%;
     left: 30%;
 }
 
@@ -296,7 +296,7 @@ display: block !important;
     padding: 3px !important;
     color: #fff !important;
     font-family:"fira-mono",sans-serif;
-    font-size: .9em;
+    font-size: .85em;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
