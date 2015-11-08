@@ -305,7 +305,10 @@ display: block !important;
     z-index: 800;
 }
 
-
+.lamp .image-title {
+    position: absolute;
+    left: 0;
+}
 
   
     
