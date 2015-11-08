@@ -360,20 +360,20 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 
     h1 {
-    font: 6em "League Gothic" sans-serif;
+    font: 6em "league-gothic",sans-serif;
     text-transform: uppercase;
         color: #000;
 }
 
     h2 {
-    font: 2em "League Gothic" sans-serif;
+    font: 2em "league-gothic",sans-serif;
     text-transform: uppercase;
          color: #000;
         padding-bottom: 20px;
 }
 
     h3 {
-    font: 1.1em "League Gothic" sans-serif;
+    font: 1.1em "league-gothic",sans-serif;
     text-transform: uppercase;
          color: #000;
 }
@@ -395,7 +395,7 @@ p {
 
 @media (max-width: 650px) {
  h1 {
-     font: 4em "League Gothic" sans-serif;
+     font: 4em "league-gothic",sans-serif;
 }
 }
 
