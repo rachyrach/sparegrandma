@@ -6,6 +6,8 @@
 body {
   background: #fff;
 }
+
+}
 nav input {
   display: none;
   color: #fff;
@@ -14,8 +16,8 @@ nav input {
 }
 nav label {
   position: fixed;
-  right: 50px;
-  top: 50px;
+  right: 30px;
+  top: 30px;
 z-index: 999;
   cursor: pointer;
 }
@@ -49,8 +51,8 @@ nav label b i {
   width: 42px;
   height: 7px;
   position: fixed;
-  right: 12px;
-  top: 12px;
+  right: 25px;
+  top: 25px;
   border-radius: 1000px;
   transform-origin: 24px 4px;
   transition: transform 300ms cubic-bezier(0.09, 0.92, 0, 1.435), opacity 500ms ease;
