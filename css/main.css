@@ -118,6 +118,8 @@ display: block !important;
 
 /* ------------------------- HOME PAGE  ------------------------- */
 
+.pointer         { cursor: pointer; }
+
 .home-logo {
     position: relative;
     max-width: 600px;
