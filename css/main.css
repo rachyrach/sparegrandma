@@ -68,7 +68,7 @@ nav label b i:nth-child(3) {
 nav menu {
   background: rgba(0,0,0,.9);
   width: 270px;
-  height: 400px;
+  height: 420px;
   opacity: 0;
   overflow: auto;
   transition: opacity 300ms ease;
@@ -89,7 +89,7 @@ nav menu li:first-child {
 }
 
 nav menu li a {
-  padding: 20px 0 3px 0;
+  padding: 15px 0 3px 0;
   font: 18px "fira-mono",sans-serif;
   text-transform: uppercase;
   text-decoration: none;
