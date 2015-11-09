@@ -13,6 +13,7 @@ nav input {
   color: #fff;
   background-color: #fff;
   border: none;
+  opacity:0;
 }
 nav label {
   position: absolute;
@@ -67,7 +68,7 @@ nav label b i:nth-child(3) {
 nav menu {
   background: rgba(0,0,0,.9);
   width: 270px;
-  height: auto;
+  height: 400px;
   opacity: 0;
   overflow: auto;
   transition: opacity 300ms ease;
