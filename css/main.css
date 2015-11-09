@@ -9,7 +9,7 @@ body {
 
 }
 nav input {
-  display: none;
+  display: none !important;
   color: #fff;
   background-color: #fff;
   border: none;
