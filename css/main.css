@@ -13,7 +13,7 @@ nav input {
   border: none;
 }
 nav label {
-  position: absolute;
+  position: fixed;
   top: 50px;
   right: 30px;
   top: 30px;
@@ -29,7 +29,7 @@ nav-custom label strong {
     font-size: 1.3em;
   color: #e72d00;
   text-transform: uppercase;
-  position: absolute;
+  position: fixed;
   right: 0px;
   top: 0px;
   transition: color 250ms ease;
@@ -49,7 +49,7 @@ nav label b i {
   background: #e72d00;
   width: 42px;
   height: 7px;
-  position: absolute;
+  position: fixed;
   right: 12px;
   top: 12px;
   border-radius: 1000px;
