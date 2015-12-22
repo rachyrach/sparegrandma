@@ -445,6 +445,13 @@ ul.post {
  list-style: none;   
 }
 
+.list ol {
+	list-style: block;
+	color: #000;
+	background: #e72d00;
+    	padding: 10px;
+    	line-height: 1.5em;
+}
 
 .copyright {
   color: rgba(255,100,100,.9);
