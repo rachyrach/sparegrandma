@@ -445,13 +445,27 @@ ul.post {
  list-style: none;   
 }
 
-.list ol {
-	list-style: block;
-	color: #000;
-	background: #e72d00;
-    	padding: 10px;
-    	line-height: 1.5em;
+.list ol{
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
 }
+
+.list li {
+    counter-increment: step-counter;
+}
+
+.list li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #e72d00;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+}
+
+
 
 .copyright {
   color: rgba(255,100,100,.9);
