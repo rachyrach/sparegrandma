@@ -444,7 +444,9 @@ font: 1.1em "fira-mono", sans-serif;
 ul.post {
  list-style: none;   
 }
-
+.list ul { 
+	list-style-type: none;
+}
 .list {
     margin-left: 0;
     padding-right: 0;
