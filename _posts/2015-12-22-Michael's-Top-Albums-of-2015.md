@@ -2,7 +2,7 @@
 layout: post
 title: "Michael's Top Albums of 2015"
 ---
-
+<ol>
 **1. VEGA INTL NIGHT SCHOOL – Neon Indian**
 2. Divers – Joanna Newsom
 3. Dry Food - Palehound
@@ -60,3 +60,4 @@ title: "Michael's Top Albums of 2015"
 55. The Offer – Yowler
 56. Look Around – Beat Happening
 57. Abyss – Chelsea Wolfe
+</ol>
