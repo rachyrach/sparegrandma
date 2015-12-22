@@ -2,7 +2,7 @@
 layout: post
 title: "Dylan's Top Albums of 2015"
 ---
-
+<p>
 1.	Kendrick Lamar - To Pimp a Butterfly
 2.	The World Is a Beautiful Place & I Am No Longer Afraid to Die - Harmlessness
 3.	Pile - You're Better Than This
@@ -56,3 +56,4 @@ title: "Dylan's Top Albums of 2015"
 51.	Milo - So The Flies Don't Come
 52.	Dr. Dre - Compton
 53.	Migos - Yung Rich Nation 
+</p>
