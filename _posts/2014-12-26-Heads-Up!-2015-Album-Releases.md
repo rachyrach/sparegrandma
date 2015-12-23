@@ -6,11 +6,8 @@ title: "Heads Up: 2015 Album Releases"
 The year 2014 has just about ran its course. We’ve had a few killer late in the year releases (D’Angelo, Ariel Pink, and maybe Chance the Rapper), but we’ll take note of those late releases and move on. Here are some expected 2015 releases that should keep fans excited.
 
 - The Social Experiment (Chance the Rapper) – Band backed Surf should be out early 2015 if not late 2014 for free. Chance has mentioned his work with Migos, J. Cole, and Frank Ocean, though confirmation of their features on Surf was not specified. Lead up single “Sunday Candy” credited to member Donnie Trumpet has been in heavy rotation since it dropped and left us with high expectations for this album.
-
 - Earl Sweatshirt – Vince Staples recently tweeted about Earl’s new album Home Alone with Reggie, which will be “dropping soon.” This vague comment at least gives the title and implies the album has been worked on. 
-
 - Panda Bear – After peeping new Panda Bear material at Gorilla vs. Bear IV in Dallas, it was clear that while I was blinded by the Danny Perez visuals, Lennox would come through with more promising material. His 2015 LP, Panda Bear Meets the Grim Reaper, is due out January 15th.
-
 - Sleater-Kinney – No Cities to Love drops in the U.S. January 20th followed by extensive touring. Hopefully, you can snag some tickets before they’re sold out. Carrie Brownstein’s relatively recent success with Portlandia may have upped ticket demand.
 
 - Joey Bada$$ - 1/20/2015 I thoroughly enjoyed 1999 when it dropped back in 2012, but Summer Knights left me feeling just ok. And until recently, I wasn’t too excited about the prospect of another Joey Bada$$ album. This started to change with recent verses with Mick Jenkins, Freddie Gibbs, and others seeming to capture that spark that made me enjoy his music so much in the first place. He’s sounding angrier than ever on his recent singles “Big Dusty”, “Christ Conscious”, and “No. 99.”  I’m interested in what he can do across a debut full length LP. -Dylan
