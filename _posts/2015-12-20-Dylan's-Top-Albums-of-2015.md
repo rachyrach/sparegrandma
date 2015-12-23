@@ -3,7 +3,7 @@ layout: post
 title: "Dylan's Top Albums of 2015"
 ---
 
-- Kendrick Lamar - To Pimp a Butterfly
+- **Kendrick Lamar - To Pimp a Butterfly**
 - The World Is a Beautiful Place & I Am No Longer Afraid to Die - Harmlessness
 - Pile - You're Better Than This
 - Vince Staples - Summertime '06
