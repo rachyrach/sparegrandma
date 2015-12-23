@@ -3,7 +3,7 @@ layout: post
 title: "Michael's Top Albums of 2015"
 ---
 
-- **VEGA INTL NIGHT SCHOOL – Neon India**
+- **VEGA INTL NIGHT SCHOOL – Neon Indian**
 - Divers – Joanna Newsom
 - Dry Food - Palehound
 - Sun Coming Down – Ought
