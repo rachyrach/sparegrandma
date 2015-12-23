@@ -466,16 +466,6 @@ ul {
     content: counter(step-counter);
     margin-right: 5px;
     font-size: 80%;
-    background-color: #000;
-    color: white;
-    font-weight: bold;
-    padding: 3px 8px;
-}
-
-.list li::first-child {
-    content: counter(step-counter);
-    margin-right: 5px;
-    font-size: 80%;
     background-color: #e72d00;
     color: white;
     font-weight: bold;
