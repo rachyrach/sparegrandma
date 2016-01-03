@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dylan's Top Albums of 2015"
+author: "Dylan Clay"
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z-48u_uWMHY" frameborder="0" allowfullscreen></iframe>

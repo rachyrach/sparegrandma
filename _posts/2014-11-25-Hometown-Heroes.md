@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hometown Heroes"
+author: "Dylan Clay"
 ---
 
 
@@ -14,6 +15,7 @@ Supporting local artists is a vital part of being a music fan. All artists have 
 
 
 -Dylan Clay
+
 <a href="http://hellochief.bandcamp.com/" target="_blank"></a>http://hellochief.bandcamp.com/</a>
 
 Check out a section of Hello Chief's live set at Houston's Free Press Summer Fest 2013 below. :')

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Michael's Top Albums of 2015"
+author: "Michael Core"
 ---
 
 - **VEGA INTL NIGHT SCHOOL – Neon Indian**

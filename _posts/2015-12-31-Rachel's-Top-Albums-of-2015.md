@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Rachel's Top Albums of 2015"
+author: "Rachel Binagia"
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0wPHAau1ts" frameborder="0" allowfullscreen></iframe>

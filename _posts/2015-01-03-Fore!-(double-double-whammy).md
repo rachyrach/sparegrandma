@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Fore! (Double Double Whammy)"
+author: "Michael Core"
 ---
 
 

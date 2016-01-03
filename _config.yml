@@ -18,16 +18,18 @@ owner:
   name:           Spare Grandma
   avatar:         logo.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        sparegrandma
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
+
+  twitter:        sparegrandma 
   instagram:      sparegrandma
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +yourid
+  
+  
+  defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
 
