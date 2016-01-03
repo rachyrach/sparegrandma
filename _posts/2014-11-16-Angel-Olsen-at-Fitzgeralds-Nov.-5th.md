@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Angel Olsen at Fitzgeralds"
 author: "Michael Core"
 ---
