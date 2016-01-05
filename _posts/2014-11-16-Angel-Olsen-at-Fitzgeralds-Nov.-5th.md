@@ -2,7 +2,7 @@
 layout: post
 title: "Angel Olsen at Fitzgeralds"
 author: michael
-tags: "angel olsen, fitzgerald's, houston"
+tags: angel olsen, fitzgerald's, houston
 ---
 
 
