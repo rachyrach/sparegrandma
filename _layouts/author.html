@@ -1,0 +1,61 @@
+
+<div class="row">
+    <div class="col-sm-7 margin-large">
+    <h1>Write Ups</h1></div>
+ 
+<div class="col-sm-5 page-title">
+            <img src="{{ site.baseurl }}/images/pen.gif" width="220px" height="auto"/>
+  </div>
+</div>
+
+
+
+<div class="row">
+<div class="col-md-8 margin-large">
+    
+  <ul class="post">
+  {% for post in site.posts %}
+  {% if p.author == page.author %}
+      <li>
+        <span class="date">{{ post.date | date_to_long_string }}</span>
+        <h2>{{ post.title }}</h2>
+        
+        <p>{{ post.content | strip_html | truncatewords:40}}</p>
+            <a class="sg-btn" href="{{ site.baseurl }}{{ post.url }}">Read More...</a><br><br>
+            </br>
+    </li>
+  {% endif %}
+  {% endfor %}
+</ul>
+    
+    
+    </div>
+<div class="col-md-4 margin-large">
+<h2> Archives</h2>
+<ul class="post" style="font-size:75%;">
+  {% for post in site.posts %}
+     {% if p.author == page.author %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="date">{{ post.title }}</a>
+    </li>
+      {% endif %}
+  {% endfor %}
+</ul>
+    </br>
+    
+    <h2>Authors</h2>
+    <span class="date">
+        Michael Core</br>
+        Dylan Clay</br>
+        Rachel Binagia</span>
+    
+
+    
+    <div style="margin-top:40px;">
+    <a class="twitter-timeline" href="https://twitter.com/sparegrandma" data-widget-id="534209805670309889" >Tweets by @sparegrandma</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+    </div>
+
+
+
+
