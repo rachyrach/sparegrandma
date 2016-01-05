@@ -1,4 +1,4 @@
-name: "Spare Grandma"
+title: "Spare Grandma"
 description: "Spare Grandma Indie Music Blog. For fans of Pitchfork, Aquarium Drunkard, NPR, and Sirius XMU."
 
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -17,19 +17,29 @@ pygments: true
 owner:
   name:           Spare Grandma
   avatar:         logo.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-
+  bio:            "Spare Grandma Indie Music Blog. For fans of Pitchfork, Aquarium Drunkard, NPR, and Sirius XMU. Broadcasting from College Station and Houston, TX. Tune in at www.kanm.org every Wednesday from 3-5 PM."
   twitter:        sparegrandma 
   instagram:      sparegrandma
   
   
-  defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+authors:
+  michael:
+    display_name: Michael Core
+    image: http://sparegrandma.com/images/michael.png
+    instagram: miggulchor
+    bio: "Medical scribe, skateboarder, musician. Fan of Pitchfork, Aquarium Drunkard, KEXP, KANM Student Radio, and Brooklyn Vegan."
+  dylan:
+    display_name: Dylan Clay
+    image: http://sparegrandma.com/images/dylan.png
+    instagram: dclay1113
+    bio: "College student who dabbles in music on the side. Fan of Pitchfork, Aquarium Drunkard, Passion of The Weiss, Dead End Hip Hop"
+  rachel:
+    display_name: Rachel Binagia
+    image: http://sparegrandma.com/images/rachel.png
+    instagram: rrbinag
+    bio: "Rachel is a wanna-be musician and an above-average whistler."
+    
+    
 
 
 
