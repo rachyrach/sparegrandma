@@ -39,8 +39,9 @@
 <div class="col-md-4 margin-large">
 <h2> Archives</h2>
 <ul class="post" style="font-size:75%;">
+ {% assign author = site.authors[page.author] %} 
   {% for post in site.posts %}
-     {% if p.author == page.author %}
+     {% if page.author == site.author %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}" class="date">{{ post.title }}</a>
     </li>
