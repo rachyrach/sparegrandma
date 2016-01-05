@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hometown Heroes"
-author: "Dylan Clay"
+author: dylan
 ---
 
 

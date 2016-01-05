@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2014 Honorable Mentions"
-author: "Michael Core"
+author: michael
 ---
 
 - **bo en** - pale machine [MARU - 123]///London-based and Asian-infused, bo en samples old video games and spins a listener's head like a top. Feels like Sophie, Dan Deacon, and Avalanches. Explosions, pets, purrs, strings, ummm, drums, birds, water, yacht rock, Mario Bros, bottle pops, and everything... This should have probably made Spare Grandma's 2014 favorites, but oh whale. Seriously. Listen.

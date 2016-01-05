@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bon-Appetit (Hellfyre Club)"
-author: "Michael Core"
+author: michael
 ---
 
 

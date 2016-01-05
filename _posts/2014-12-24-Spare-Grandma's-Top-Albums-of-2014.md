@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spare Grandma's Top Albums of 2014"
-author: "Michael Core"
+author: michael
 ---
 
 
