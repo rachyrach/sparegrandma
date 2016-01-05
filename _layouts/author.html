@@ -7,8 +7,11 @@
 <div class="container">
     <div class="row">
     <div class="col-sm-7 margin-large">
-    <h1>Write Ups</h1></div>
+    <h1>Write Ups</h1>
+    {% assign author = site.authors[page.author] %}
         <p>Articles by {{ author.display_name }}</p>
+        </div>
+        
  
 <div class="col-sm-5 page-title">
             <img src="{{ site.baseurl }}/images/pen.gif" width="220px" height="auto"/>
@@ -21,9 +24,9 @@
 <div class="col-md-8 margin-large">
     
   <ul class="post">
-      {% assign author = site.authors[page.author] %}
+
   {% for post in site.posts %} 
-  {% if p.author == page.author %}
+  {% if page.author == page.author %}
       <li>
         <span class="date">{{ post.date | date_to_long_string }}</span>
         <h2>{{ post.title }}</h2>
@@ -41,9 +44,8 @@
 <div class="col-md-4 margin-large">
 <h2> Archives</h2>
 <ul class="post" style="font-size:75%;">
- {% assign author = site.authors[page.author] %} 
   {% for post in site.posts %}
-     {% if p.author == page.author %}
+     {% if page.author == page.author %}
     <li>
       <a href="{{ site.baseurl }}{{ post.url }}" class="date">{{ post.title }}</a>
     </li>
