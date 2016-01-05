@@ -487,6 +487,21 @@ font: .65em "fira-mono", sans-serif;
     
 }
 
+.authors {
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 70px 25px;
+}
+
+.authors img {
+    align-content: center;
+}
+
+.authors p {
+  color: #aaa;
+  font-size: .9 em;  
+}
+
 
 @media (max-width: 650px) {
 .copyright {
