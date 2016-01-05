@@ -489,6 +489,7 @@ font: .65em "fira-mono", sans-serif;
 
 .authors {
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     text-align: left;
     padding: 70px 25px;
 }
