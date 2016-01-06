@@ -5,8 +5,8 @@ author: rachel
 ---
 
 These are the top 10 albums I had 
-
-<iframe class="video-container" width="560" height="315" src="https://www.youtube.com/embed/l0wPHAau1ts" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l0wPHAau1ts" frameborder="0" allowfullscreen></iframe></div>
 
 - **VEGA INTL NIGHT SCHOOL – Neon Indian**
 - Carrie & Lowell – Sufjan Stevens
