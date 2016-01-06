@@ -11,10 +11,10 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">  
  {% if page.tags %}
- 8 <meta name="keywords" content="{{ page.tags }}" />
- 9 {% else %}
-10 <meta name="keywords" content="spare grandma, indie, music, blog, kanm, radio, michael core, dylan clay, hip hop, rap, shoegaze, noise, protopunk, experimental, vinyl, folk, electronic, fuzz, garage, punk, americana, world music, rachel binagia" />
-11 {% endif %}
+<meta name="keywords" content="{{ page.tags }}" />
+{% else %}
+<meta name="keywords" content="spare grandma, indie, music, blog, kanm, radio, michael core, dylan clay, hip hop, rap, shoegaze, noise, protopunk, experimental, vinyl, folk, electronic, fuzz, garage, punk, americana, world music, rachel binagia" />
+{% endif %}
 <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
     
 {% include opengraphs.html %}
