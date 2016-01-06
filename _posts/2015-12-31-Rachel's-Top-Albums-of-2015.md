@@ -4,9 +4,11 @@ title: "Rachel's Top Albums of 2015"
 author: rachel
 ---
 
-These are the top 10 albums I had 
-<div class="video-container">
+These are the top 10 albums I listened to on repeat throughout the year.
+
+<div class="video-container col-md-8">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0wPHAau1ts" frameborder="0" allowfullscreen></iframe></div>
+
 
 - **VEGA INTL NIGHT SCHOOL – Neon Indian**
 - Carrie & Lowell – Sufjan Stevens
