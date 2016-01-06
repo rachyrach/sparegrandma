@@ -6,7 +6,7 @@ author: rachel
 
 These are the top 10 albums I listened to on repeat throughout the year.
 
-<div class="video-container col-md-8">
+<div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l0wPHAau1ts" frameborder="0" allowfullscreen></iframe></div>
 
 
