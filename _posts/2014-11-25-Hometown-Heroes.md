@@ -14,7 +14,6 @@ Hello Chief were by far the most popular of the local acts, and for good reason.
 Supporting local artists is a vital part of being a music fan. All artists have to get their start somewhere. Just take for example some other Beaumont hometown heroes who have gone on to forming successful bands such as Ringo Deathstarr, Parquet Courts, or Sons of Santos.
 
 
--Dylan Clay
 
 <a href="http://hellochief.bandcamp.com/" target="_blank"></a>http://hellochief.bandcamp.com/</a>
 

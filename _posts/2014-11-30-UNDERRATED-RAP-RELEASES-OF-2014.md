@@ -40,5 +40,3 @@ Speaking of early 2000’s Def Jux, a peek through the liner notes of legendary 
 
 <iframe src="https://embed.spotify.com/?uri=spotify:album:28we07aYdihtPhOXpKLiIS" frameborder="0" allowtransparency="true" width="300" height="80"></iframe>
 
-
--Dylan Clay
