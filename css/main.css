@@ -504,15 +504,10 @@ font: .65em "fira-mono", sans-serif;
 }
 
 
-.rotation {
-    margin-right: 20px;
-    margin-top:20px
-    
-}
 
 .rotation img iframe {
- width: 250px;
- height: 250px;
+    margin-right: 20px;
+    margin-top:20px
 }
 
 @media (max-width: 650px) {
