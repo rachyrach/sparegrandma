@@ -496,7 +496,8 @@ font: .65em "fira-mono", sans-serif;
 }
 
 .authors img {
-    align-content: center;
+    align-content: left;
+    max-width: 90%;
 }
 
 .authors p {
