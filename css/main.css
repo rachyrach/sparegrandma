@@ -489,7 +489,7 @@ font: .65em "fira-mono", sans-serif;
 
 .authors {
     border-top: 1px solid #999999;
-    border-bottom: 1px solid #999999;
+    /* border-bottom: 1px solid #999999; */
     text-align: left;
     padding: 50px 25px;
     margin-top: -50px;
@@ -498,7 +498,7 @@ font: .65em "fira-mono", sans-serif;
 .authors img {
     align-content: left;
     max-width: 100%;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .authors p {
