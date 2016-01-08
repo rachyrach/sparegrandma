@@ -498,6 +498,7 @@ font: .65em "fira-mono", sans-serif;
 .authors img {
     align-content: left;
     max-width: 100%;
+    margin-bottom:20px;
 }
 
 .authors p {
