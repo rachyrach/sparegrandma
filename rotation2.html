@@ -1,0 +1,60 @@
+---
+layout: default
+title: On Rotation
+description: Current songs we play on repeat. 
+thumbnail: /images/record-player2.gif
+---
+
+rotation:
+  album1:
+    album: "VEGA INTL NIGHT SCHOOL"
+    artist: Neon Indian
+    image: album01.jpg
+    youtube: 
+    soundcloud: 
+    spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A5jgrzAcDHJ5Nb2viW52OlR
+    link:
+
+
+    <div class="row">
+    <div class="col-sm-7 margin-large">
+    <h1>On Rotation</h1></div>
+        <div class="col-sm-5 page-title">
+            <img src="{{ site.baseurl }}/images/record-player2.gif" width="250px" height="auto"/>
+            
+         <!---  NEED JAVASCRIPT FOR THIS 
+            {% assign onrotation = site.rotation[page.onrotation] %}
+<p class="date"> Now Playing {{ onrotation.album }} by {{ onrotation.artist }} </p> --->
+            
+        </div>
+    </div>
+
+ 
+ 
+<div class="col-sm-8">
+     <ul>
+  {% for onrotation in site.rotation %}
+      <li>
+    <div class="rotation-div"><img class="rotation-img" src="images/{{ onrotation.image }}">
+          
+          <div class="rotation-play">
+<object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <a href="{{ onrotation.link }}">Full Album</a>
+        
+        </div>
+          
+          </div>
+
+    </li>
+  {% endfor %}
+</ul>
+    
+
+
+
+</div>
+
+
+
+
+    
+  

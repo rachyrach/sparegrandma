@@ -514,6 +514,30 @@ font: .65em "fira-mono", sans-serif;
     height: 250px;
 }
 
+
+.rotation-div {
+    max-width: 200px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.rotation-img {
+    width: 200px;
+    height: 200px;
+}
+
+.rotation-play {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.rotation-play a {
+ color: #e72d00;
+    text-decoration: underline;
+}
+
 @media (max-width: 650px) {
 .copyright {
   color: rgba(255,100,100,.9);
