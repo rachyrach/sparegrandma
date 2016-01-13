@@ -5,98 +5,97 @@ description: Current songs we play on repeat.
 thumbnail: /images/record-player2.gif
 # for youtube add everything after https://www.youtube.com/watch?v= (add this info)  
 # save album as album number 
-
 rotation:
-  album1:
-    album: "VEGA INTL NIGHT SCHOOL"
+  album:
+    album_name: "VEGA INTL NIGHT SCHOOL"
     artist: Neon Indian
     image: album01.jpg
     youtube: b1JHawvhtrI
     soundcloud: 
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A5jgrzAcDHJ5Nb2viW52OlR
     link:
-  album2:
-    album: "Are You Alone?"
+  album:
+    album_name: "Are You Alone?"
     artist: Majical Cloudz
     image: album02.jpg
     youtube: 7yxY2cKsLis&list=PLZqsyBiYZFQ1HuJ_GLL6wjopsy8-hFBy-
     soundcloud: 
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A2xF3ioefFdZrOg9zUBU5hb  
     link: https://www.youtube.com/playlist?list=PLZqsyBiYZFQ1HuJ_GLL6wjopsy8-hFBy-
-  album3:
-    album: "Fading Frontier"
+  album:
+    album_name: "Fading Frontier"
     artist: Deerhunter
     image: album03.jpg
     youtube: CG6jk5Q90DA
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A0y5XgOUEiJSSIMxC4ALRAC
     link:
-  album4:
-    album: "90059"
+  album:
+    album_name: "90059"
     artist: Jay Rock
     image: album04.jpg
     youtube: -O4th2sHxdU
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A1fsvlnonD95p6VTEdQ7zJn 
     link:
-  album5:
-    album: "Divers"
+  album:
+    album_name: "Divers"
     artist: Joanna Newsom
     image: album05.jpg 
     youtube: 48xlgXqQKLA
     soundcloud:
     spotify:
     link:
-  album6: 
-    album: "Depression Cherry"
+  album: 
+    album_name: "Depression Cherry"
     artist: Beach House
     image: album06.jpg
     youtube: Cy5MiOqarYs
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A35vTE3hx3AAXtM6okpJIIt
     link:
-  album7:
-    album: "So the Flies Don't Come"
+  album:
+    album_name: "So the Flies Don't Come"
     artist: Milo
     image: album07.jpg
     youtube: P5H77IUvu1E
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A1aCdrqjxp4duqTRne80ecY 
     link:
-  album8:
-    album: "Meow the Jewels"
+  album:
+    album_name: "Meow the Jewels"
     artist: Run The Jewels
     image: album08.jpg
     youtube: eOvzllwBJQg&list=PLQx7Olx-4qKiS3gzbNn9yEEZXbQ-bb9ab
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A0YHFRaVnIWPj0gJWvlAoxE
     link:
-  album9:
-    album: "New Bermuda"
+  album:
+    album_name: "New Bermuda"
     artist: Deafheaven
     image: album09.jpg
     youtube: https://www.youtube.com/watch?v=iezyTjg-8iY
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A2e4xOasRFhJn4x2MBM5pdu 
     link:
-  album10:
-    album: "The Agent Intellect"
+  album:
+    album_name: "The Agent Intellect"
     artist: Protomartyr
     image: album10.jpg
     youtube: https://www.youtube.com/watch?v=ZB_VPDXAhKU
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A3oNSWUAqB7CCTSH1zdlrXO
     link:
-  album11:
-    album: "Sun Coming Down"
+  album:
+    album_name: "Sun Coming Down"
     artist: Ought
     image: album11.jpg
     youtube: https://www.youtube.com/watch?v=O2cd8T1oO_0&list=PLsLK3KowwXTjJX6GeYKb6ULN2dkbF2R28
     soundcloud:
     spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A6Il9jwREmViqtjAXbkprVA
     link:
-  album12:
-    album: "Dry Food"
+  album:
+    album_name: "Dry Food"
     artist: Pale Hound
     image: album12.jpg
     youtube: https://www.youtube.com/watch?v=a-jzuHhVfnc&list=PLnkHHIr2NOf4jgZ1bRaBzvFfge1FvcyOC
@@ -121,13 +120,12 @@ rotation:
  
  
 <div class="col-md-10">
-     <ul>
-  {% for onrotation in page.rotation %}
-      <li>
-    <div class="rotation-div"><img class="rotation-img" src="images/{{ onrotation.image }}">
+     <ul>{% for onrotation in page.rotation %}
+      <li>{% for albums in onrotation.album %}
+    <div class="rotation-div"><img class="rotation-img" src="images/{{ albums.image }}">
           
           <div class="rotation-play">
-<object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ onrotation.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ onrotation.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <a href="{{ onrotation.link }}">Full Album</a>
+<object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <a href="{{ albums.link }}">Full Album</a>
         
         </div>
           
