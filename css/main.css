@@ -522,11 +522,15 @@ font: .65em "fira-mono", sans-serif;
     margin-right: 5px;
     margin-bottom: 5px;
     position: relative;
+    background-color: black;
 }
 
 .rotation-img {
-    width: 150px;
-    height: 150px;
+opacity: 100%;
+}
+
+.rotation-img:hover {
+    opacity: 0%;
 }
 
 .rotation-play {
@@ -546,6 +550,13 @@ font: .65em "fira-mono", sans-serif;
 }
 
 @media (max-width: 650px) {
+    
+.rotation-div {
+ width: 49%;
+    height: auto;
+}
+    
+    
 .copyright {
   color: rgba(255,100,100,.9);
 font: .5em "fira-mono", sans-serif; 
