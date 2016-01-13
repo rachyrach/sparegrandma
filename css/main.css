@@ -532,7 +532,7 @@ font: .65em "fira-mono", sans-serif;
     
 }
 
-.rotation-img:hover {
+.rotation-img {
     opacity: 0%;
 }
 
@@ -554,9 +554,9 @@ font: .65em "fira-mono", sans-serif;
 
 @media (max-width: 650px) {
     
-.rotation-div {
- width: 49%;
-    height: auto;
+.rotation-div .rotation-img {
+ width: 100px;
+    height: 100px;
 }
     
     
