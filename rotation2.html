@@ -21,7 +21,7 @@ thumbnail: /images/record-player2.gif
  
  
 <div class="col-md-10">
-
+{% assign onrotation = site.rotation %} 
      <ul>{% for onrotation in site.rotation %}
       <li>
     <div class="rotation-div"><img class="rotation-img" src="images/{{ onrotation.album.image }}">
