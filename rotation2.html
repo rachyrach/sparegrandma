@@ -122,12 +122,12 @@ rotation:
  
 <div class="col-md-10">
      <ul>
-  {% for page.rotation %}
+  {% for onrotation in page.rotation %}
       <li>
-    <div class="rotation-div"><img class="rotation-img" src="images/{{ rotation.image }}">
+    <div class="rotation-div"><img class="rotation-img" src="images/{{ onrotation.image }}">
           
           <div class="rotation-play">
-<object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <a href="{{ onrotation.link }}">Full Album</a>
+<object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ onrotation.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ onrotation.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <a href="{{ onrotation.link }}">Full Album</a>
         
         </div>
           
