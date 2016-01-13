@@ -528,9 +528,12 @@ font: .65em "fira-mono", sans-serif;
 }
 
 .rotation-play {
-    background-color: black;
+   /* background-color: black;*/
     width: 100%;
     height: auto;
+    position:relative;
+    bottom: 0;
+    left: 0;
 }
 
 .rotation-play a {
