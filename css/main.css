@@ -526,7 +526,10 @@ font: .65em "fira-mono", sans-serif;
 }
 
 .rotation-img {
-opacity: 100%;
+    width: 150px;
+    height: 150px;
+    opacity: 100%;
+    
 }
 
 .rotation-img:hover {
