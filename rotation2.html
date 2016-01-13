@@ -1,7 +1,7 @@
 ---
 layout: default
 title: On Rotation
-description: Current songs we play on repeat. 
+description: Current albums we play on repeat. 
 thumbnail: /images/record-player2.gif
 ---
 
@@ -24,7 +24,7 @@ thumbnail: /images/record-player2.gif
 {% assign onrotation = site.rotation %} 
      <ul>{% for albums in onrotation.album %}
       <li>
-    <div class="rotation-div"><img class="rotation-img" src="images/{{ onrotation.albums.image }}">
+    <div class="rotation-div"><img class="rotation-img" src="images/{{ image }}">
           
           <div class="rotation-play">
 <object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ onrotation.album.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ onrotation.album.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <a href="{{ onrotation.link }}">Full Album</a>
