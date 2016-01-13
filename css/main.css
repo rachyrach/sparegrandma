@@ -516,15 +516,15 @@ font: .65em "fira-mono", sans-serif;
 
 
 .rotation-div {
-    max-width: 200px;
+    max-width: 150px;
     float: left;
     margin-right: 25px;
     margin-bottom: 25px;
 }
 
 .rotation-img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .rotation-play {
@@ -536,6 +536,7 @@ font: .65em "fira-mono", sans-serif;
 .rotation-play a {
  color: #e72d00;
     text-decoration: underline;
+    text-align: right;
 }
 
 @media (max-width: 650px) {
