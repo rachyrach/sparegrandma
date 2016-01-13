@@ -518,8 +518,8 @@ font: .65em "fira-mono", sans-serif;
 .rotation-div {
     max-width: 150px;
     float: left;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .rotation-img {
