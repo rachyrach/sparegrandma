@@ -517,9 +517,11 @@ font: .65em "fira-mono", sans-serif;
 
 .rotation-div {
     max-width: 150px;
+    max-height: 150px;
     float: left;
     margin-right: 5px;
     margin-bottom: 5px;
+    position: relative;
 }
 
 .rotation-img {
@@ -532,7 +534,7 @@ font: .65em "fira-mono", sans-serif;
     width: 100%;
     height: auto;
     float:left;
-    position:relative;
+    position: absolute;
     bottom: 0;
     left: 0;
 }
