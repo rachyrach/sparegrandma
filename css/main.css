@@ -545,10 +545,8 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
     opacity: 100%
-   -webkit-transition: opacity.5s ease-out;
-  -moz-transition: opacity .5s ease-out;
-  -o-transition: opacity .5s ease-out;
-  transition: opacity .5s ease-out;
+    -webkit-transition: top ease-out .3s;
+    transition: top ease-out .3s;
 
 
 }
@@ -557,11 +555,9 @@ font: .65em "fira-mono", sans-serif;
     width: 150px;
     height: 150px;
     position: absolute;
-    opacity: 0%
-    -webkit-transition: opacity.5s ease-in;
-    -moz-transition: opacity .5s ease-in;
-    -o-transition: opacity .5s ease-in;
-    transition: opacity .5s ease-in;
+    top: 150px;
+    -webkit-transition: top ease-in .3s;
+    transition: top ease-in .3s;
 
 }
 
