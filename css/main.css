@@ -511,7 +511,7 @@ font: .65em "fira-mono", sans-serif;
     float: left;
     margin-right: 5px;
     margin-bottom: 5px;
-    position
+    position: relative;
 }
 
 .rotation-imageonly {
