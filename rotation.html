@@ -32,7 +32,7 @@ thumbnail: /images/record-player2.gif
           
 						<figcaption>
                             <p>Album: {{ albums.album_name }}</p>
-                            <p>Artist: Neon Indian</p>
+                            <p>Artist: {{ albums.artist }}</p>
                             {% if albums.spotify %}
                             <a href="{{ albums.spotify }}">Listen on Spotify</a>
                             {% endif %}
