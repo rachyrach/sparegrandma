@@ -23,18 +23,29 @@ thumbnail: /images/record-player2.gif
 <div class="col-md-9">
 
      <ul>
-         % for albums in site.data.rotation %}
+         {% for albums in site.data.rotation %}
       <li> 
-    <div class="rotation">
-        	
+          <div class="rotation-window">
+    <div class="rotation-div"> 
+
                 
-                <img class="rotation-imageonly" src="/images/{{ albums.image }}">
-          
-						
+                <img class="rotation-img" src="/images/{{ albums.image }}"/>
+  	            <div class="rotation-text">
+                            <p>Album: {{ albums.album_name }}</p>
+                            <p>Artist: {{ albums.artist }}</p>
+                            {% if albums.spotify %}
+                            <a href="{{ albums.spotify }}">Listen on Spotify</a>
+                            {% endif %}
+                            {% if albums.link %}
+                            <a href="{{ albums.link }}">Learn More</a>
+                            {% endif %}
+						</div>
+              </div>
         
           <div class="rotation-play">
 <object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <!--- <a href="{{ albums.link }}">Full Album</a> --->
-
+        
+        </div>
         
         
           

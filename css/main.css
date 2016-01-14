@@ -505,13 +505,26 @@ font: .65em "fira-mono", sans-serif;
   padding-top: 10px;
 }
 
+.rotation {
+    height: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
 
+.rotation-imagestill {
+    width: 150px;
+    height: 150px;
+ 
+}
 
+/*------------------------ vvvvvvvvvvv TESTING vvvvvvvvvvv ----------------------*/
 
 .rotation-window {
-    max-width: 150px;
-    max-height: 150px;
-
+    height: 150px;
+    height: 150px;
+    float: left;
     margin-right: 5px;
     margin-bottom: 5px;
     overflow: hidden;
@@ -555,6 +568,9 @@ div.rotation-text {
     font-size: .8em;
     line-height:1em;
 }
+
+/*------------------------ ^^^^^^^^^^^TESTING^^^^^^^^^^^^^^^^ ----------------------*/
+
 
 .rotation-play {
    /*background-color: black;*/
