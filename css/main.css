@@ -521,7 +521,7 @@ font: .65em "fira-mono", sans-serif;
     margin-right: 5px;
     margin-bottom: 5px;
     position: relative;
-    overflow:hidden;
+
     
 }
 
@@ -531,6 +531,7 @@ font: .65em "fira-mono", sans-serif;
     top:0;
     -webkit-transition: .9s;
     transition: .9s;
+    overflow:hidden;
 }
 
 .rotation-div:hover {
@@ -544,14 +545,14 @@ font: .65em "fira-mono", sans-serif;
 .rotation-img {
     width: 150px;
     height: 150px;
-    position:relative;
+ 
 }
 
 
 .rotation-text {
     width: 150px;
     height: 150px; 
-    position:relative;
+
 }
 
 .rotation-text p  {
