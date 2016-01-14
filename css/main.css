@@ -27,7 +27,7 @@ nav-custom label strong {
   width: 40px;
   height: 40px;
   line-height: 40px!important;
-  font-family: "league-gothic", sans-serif;
+  font-family: "league-gothic", "Impact", sans-serif;
     font-size: 1.3em;
   color: #e72d00;
   text-transform: uppercase;
@@ -381,20 +381,20 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 
     h1 {
-    font: 6em "league-gothic",sans-serif;
+    font: 6em "league-gothic", "Impact", sans-serif;
     text-transform: uppercase;
         color: #000;
 }
 
     h2 {
-    font: 2em "league-gothic",sans-serif;
+    font: 2em "league-gothic", "Impact", sans-serif;
     text-transform: uppercase;
          color: #000;
         padding-bottom: 20px;
 }
 
     h3 {
-    font: 1.1em "league-gothic",sans-serif;
+    font: 1.1em "league-gothic", "Impact", sans-serif;
     text-transform: uppercase;
          color: #000;
 }
@@ -416,7 +416,7 @@ p {
 
 @media (max-width: 650px) {
  h1 {
-     font: 4em "league-gothic",sans-serif;
+     font: 4em "league-gothic", "Impact", sans-serif;
 }
 }
 
