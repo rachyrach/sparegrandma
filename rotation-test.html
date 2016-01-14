@@ -25,7 +25,7 @@ thumbnail: /images/record-player2.gif
      <ul>
          {% for albums in site.data.rotation %}
       <li> 
-          <div class="rotation-window">
+          
     <div class="rotation-div"> 
 
                 
@@ -40,17 +40,15 @@ thumbnail: /images/record-player2.gif
                             <a href="{{ albums.link }}">Learn More</a>
                             {% endif %}
 						</div>
-              </div>
+             
         
           <div class="rotation-play">
 <object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <!--- <a href="{{ albums.link }}">Full Album</a> --->
         
         </div>
+         </div>
         
         
-          
-          </div>
-
     </li>
   {% endfor %}
 </ul>
