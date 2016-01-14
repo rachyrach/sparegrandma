@@ -533,6 +533,22 @@ font: .65em "fira-mono", sans-serif;
 }
 
 
+.rotation-text {
+    width: 150px;
+    height: 150px;
+    opacity: 0; 
+    background-color: black;
+ 
+}
+
+.rotation-text:hover {
+    opacity: 100%;
+    color: white;
+    font-size: .8em;
+    text-align: left;
+    padding: 3px;
+}
+
 
 .rotation-play {
    /*background-color: black;*/
