@@ -567,6 +567,7 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
     opacity: 100%;
+    index:1;
     -webkit-transition: opacity ease-in .3s;
     transition: top ease-in .3s;
 
@@ -578,6 +579,7 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
      opacity: 0%;
+ index:-1;
     -webkit-transition: top ease-out .3s;
     transition: top ease-out .3s;
 }
