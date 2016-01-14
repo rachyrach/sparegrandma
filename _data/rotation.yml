@@ -1,13 +1,12 @@
 # for youtube add everything after https://www.youtube.com/watch?v= (add this info)  
-# save album as album number 
-  # for youtube add everything after https://www.youtube.com/watch?v= (add this info)  
-# save album as album number 
+# save album image as album number, do not change image info on this page! 
+# Use spotify url NOT embed code
 - album_name: "VEGA INTL NIGHT SCHOOL"
   artist: Neon Indian
   image: album01.jpg
   youtube: b1JHawvhtrI
   soundcloud: 
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A5jgrzAcDHJ5Nb2viW52OlR
+  spotify: https://play.spotify.com/album/5jgrzAcDHJ5Nb2viW52OlR
   link:
   
 - album_name: "Are You Alone?"
@@ -15,15 +14,15 @@
   image: album02.jpg
   youtube: 7yxY2cKsLis&list=PLZqsyBiYZFQ1HuJ_GLL6wjopsy8-hFBy-
   soundcloud: 
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A2xF3ioefFdZrOg9zUBU5hb  
-  link: https://www.youtube.com/playlist?list=PLZqsyBiYZFQ1HuJ_GLL6wjopsy8-hFBy-
+  spotify: https://play.spotify.com/album/2xF3ioefFdZrOg9zUBU5hb
+  link: 
   
 - album_name: "Fading Frontier"
   artist: Deerhunter
   image: album03.jpg
   youtube: CG6jk5Q90DA
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A0y5XgOUEiJSSIMxC4ALRAC
+  spotify: https://play.spotify.com/album/0y5XgOUEiJSSIMxC4ALRAC
   link:
   
 - album_name: "90059"
@@ -31,7 +30,7 @@
   image: album04.jpg
   youtube: meMcwnDAP7o
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A1fsvlnonD95p6VTEdQ7zJn 
+  spotify: https://play.spotify.com/album/1fsvlnonD95p6VTEdQ7zJn
   
 - album_name: "Divers"
   artist: Joanna Newsom
@@ -39,14 +38,14 @@
   youtube: 48xlgXqQKLA
   soundcloud:
   spotify:
-  link:
+  link: http://www.dragcity.com/artists/joanna-newsom
   
 - album_name: "Depression Cherry"
   artist: Beach House
   image: album06.jpg
   youtube: NFhJRTdmviA
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A35vTE3hx3AAXtM6okpJIIt
+  spotify: https://play.spotify.com/album/35vTE3hx3AAXtM6okpJIIt
   link:
   
 - album_name: "So the Flies Don't Come"
@@ -54,7 +53,7 @@
   image: album07.jpg
   youtube: P5H77IUvu1E
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A1aCdrqjxp4duqTRne80ecY 
+  spotify: https://play.spotify.com/album/1aCdrqjxp4duqTRne80ecY
   link:
   
 - album_name: "Meow the Jewels"
@@ -62,7 +61,7 @@
   image: album08.jpg
   youtube: eOvzllwBJQg&list=PLQx7Olx-4qKiS3gzbNn9yEEZXbQ-bb9ab
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A0YHFRaVnIWPj0gJWvlAoxE
+  spotify: https://play.spotify.com/album/0YHFRaVnIWPj0gJWvlAoxE
   link:
   
 - album_name: "New Bermuda"
@@ -70,7 +69,7 @@
   image: album09.jpg
   youtube: iezyTjg-8iY
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A2e4xOasRFhJn4x2MBM5pdu 
+  spotify: https://play.spotify.com/album/2e4xOasRFhJn4x2MBM5pdu
   link:
   
 - album_name: "The Agent Intellect"
@@ -78,7 +77,7 @@
   image: album10.jpg
   youtube: ZB_VPDXAhKU
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A3oNSWUAqB7CCTSH1zdlrXO
+  spotify: https://play.spotify.com/album/3oNSWUAqB7CCTSH1zdlrXO
   link:
   
 - album_name: "Sun Coming Down"
@@ -86,7 +85,7 @@
   image: album11.jpg
   youtube: O2cd8T1oO_0&list=PLsLK3KowwXTjJX6GeYKb6ULN2dkbF2R28
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A6Il9jwREmViqtjAXbkprVA
+  spotify: https://play.spotify.com/album/6Il9jwREmViqtjAXbkprVA
   link:
   
 - album_name: "Dry Food"
@@ -94,6 +93,6 @@
   image: album12.jpg
   youtube: a-jzuHhVfnc
   soundcloud:
-  spotify: https://embed.spotify.com/?uri=spotify%3Aalbum%3A55vUt9yY45eIvnxUUqTnj6
+  spotify: https://play.spotify.com/album/3NCXxADFebp2Z7OMAnt6KE
   link:
     
