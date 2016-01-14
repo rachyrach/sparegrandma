@@ -511,7 +511,7 @@ font: .65em "fira-mono", sans-serif;
 .rotation-window {
     max-width: 150px;
     max-height: 150px;
-    float: left;
+
     margin-right: 5px;
     margin-bottom: 5px;
     overflow: hidden;
