@@ -545,8 +545,8 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
     top: 0px;
-    -webkit-transition: top ease-in .3s;
-    transition: top ease-in .3s;
+   /* -webkit-transition: top ease-in .3s;
+    transition: top ease-in .3s; */
 
 
 }
