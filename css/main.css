@@ -545,6 +545,10 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
     top: 0;
+    -webkit-transition: top ease-out 1s;
+transition: top ease-out 1s;
+
+
 }
 
 .rotation-img:hover {
@@ -552,6 +556,9 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
     top: -150px;
+    -webkit-transition: top ease-in 1s;
+transition: top ease-in 1s;
+
 }
 
 
@@ -570,6 +577,7 @@ div.rotation-text {
 }
 
 .rotation-text a  {
+    font-family: "fira-mono", sans-serif;
     font-size: .8em;
     line-height:1em;
 }
