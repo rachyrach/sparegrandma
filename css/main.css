@@ -604,15 +604,16 @@ padding: 10px;
 }
 
 figure.infoslide:hover img {
-	-webkit-transform: translate3d(0,100%,0);
 	opacity: 0;
     -webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
 
 
-figure.infoslide:hover p {
+figure.infoslide:hover p a{
 	opacity: 1;
+        -webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
 }
 
 /* --------------------- FORM STYLING --------------------- */
