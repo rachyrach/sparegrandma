@@ -529,7 +529,7 @@ font: .65em "fira-mono", sans-serif;
 
 .rotation-div {
     height: 150px;
-    height: 150px;
+    width: 150px;
     float: left;
     margin-right: 5px;
     margin-bottom: 5px;
@@ -583,7 +583,7 @@ font: .65em "fira-mono", sans-serif;
      
 }*/
 
-.rotation-text {
+.rotation-div .rotation-text {
     width: 150px;
     height: 150px; 
     background-color: rgba(0,0,0,0.8);
@@ -599,7 +599,7 @@ font: .65em "fira-mono", sans-serif;
 
 }
 
-.rotation-text .fade {
+.rotation-div .rotation-text .fade {
 	opacity: 0;
 	width: 170px;
 	height: 170px;
@@ -607,7 +607,7 @@ font: .65em "fira-mono", sans-serif;
 	padding: 15px;
 }
 
-.rotation-text .fade:hover{
+.rotation-div:hover .rotation-text .fade {
 	opacity: 1;
 }
 
