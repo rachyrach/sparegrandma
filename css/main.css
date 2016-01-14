@@ -566,10 +566,10 @@ font: .65em "fira-mono", sans-serif;
     width: 150px;
     height: 150px;
     position: absolute;
-    opacity: 100%;
-    index:1;
-    -webkit-transition: opacity ease-in .3s;
-    transition: top ease-in .3s;
+    opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 
 
 }
@@ -579,9 +579,6 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
      opacity: 0%;
- index:-1;
-    -webkit-transition: top ease-out .3s;
-    transition: top ease-out .3s;
 }
 
 div.rotation-text {
