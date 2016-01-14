@@ -525,11 +525,13 @@ font: .65em "fira-mono", sans-serif;
 }
 
 
-/*.rotation-img {
+.rotation-img {
     width: 150px;
     height: 150px;
     opacity: 100%;
-}*/
+    
+}
+
 
 .rotation a { position: relative; display: inline-block }
 
