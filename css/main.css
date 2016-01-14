@@ -547,7 +547,7 @@ font: .65em "fira-mono", sans-serif;
     top: 0;
 }
 
-.rotation-img:hover; {
+.rotation-img:hover {
     width: 150px;
     height: 150px;
     position: absolute;
