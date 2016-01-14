@@ -523,6 +523,11 @@ font: .65em "fira-mono", sans-serif;
 /*------------------------ vvvvvvvvvvv TESTING vvvvvvvvvvv ----------------------*/
 
 .rotation-window {
+
+    
+}
+
+.rotation-div {
     height: 150px;
     height: 150px;
     float: left;
@@ -531,26 +536,23 @@ font: .65em "fira-mono", sans-serif;
     position: relative;
     display: inline-block;
     overflow: hidden;
-    
-}
-
-.rotation-div {
-    height: 300px;
-    top:0;
-    position:absolute;
 
 }
 
-.rotation-div:hover {
-    height: 300px;
-    top:-150px;
 
-}
 
 .rotation-img {
     width: 150px;
     height: 150px;
- 
+    position: absolute;
+    top: 0;
+}
+
+.rotation-img:hover; {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -150px;
 }
 
 
@@ -558,6 +560,7 @@ div.rotation-text {
     width: 150px;
     height: 150px; 
     background-color: black;
+    position:relative;
 
 }
 
