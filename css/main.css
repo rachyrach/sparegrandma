@@ -579,6 +579,16 @@ font: .65em "fira-mono", sans-serif;
     height: 100px;
 }
     
+.rotation-play {
+   /*background-color: black;*/
+    width: 30px;
+    height: auto;
+    float:left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+    
     
 .copyright {
   color: rgba(255,100,100,.9);
