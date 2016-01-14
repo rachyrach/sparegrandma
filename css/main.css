@@ -614,10 +614,10 @@ font: .65em "fira-mono", sans-serif;
 
 @media (max-width: 650px) {
     
-.rotation-div .rotation-img {
+/* .rotation-div .rotation-img {
  width: 100px;
     height: 100px;
-}
+}*/
     
 .rotation-play {
    /*background-color: black;*/
