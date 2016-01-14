@@ -506,16 +506,15 @@ font: .65em "fira-mono", sans-serif;
 }
 
 
-
-.rotation img iframe {
+/*.rotation img iframe {
     margin-right: 20px;
     margin-top: 20px; 
     width: 250px;
     height: 250px;
-}
+}*/
 
 
-.rotation-div {
+.rotation {
     max-width: 150px;
     max-height: 150px;
     float: left;
@@ -526,27 +525,35 @@ font: .65em "fira-mono", sans-serif;
 }
 
 
-.rotation-img {
+/*.rotation-img {
     width: 150px;
     height: 150px;
     opacity: 100%;
-}
+}*/
 
+.rotation a { position: relative; display: inline-block }
 
-.rotation-text {
-    width: 150px;
+.rotation a img {
+    width:150px;
     height: 150px;
-    opacity: 0; 
-    background-color: black;
- 
 }
 
-.rotation-text:hover {
-    opacity: 100%;
-    color: white;
-    font-size: .8em;
-    text-align: left;
-    padding: 3px;
+.rotation a p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    background: black;
+    color: #fff;
+    opacity:0;
+    transition:1s;
+    
+}
+
+.rotation a:hover p {
+    opacity:1;
 }
 
 
