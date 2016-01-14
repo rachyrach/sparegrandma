@@ -604,7 +604,7 @@ font: .65em "fira-mono", sans-serif;
 	width: 150px;
 	height: 150px;
 	text-align: left;
-	padding: 15px;
+	padding: 5px;
 }
 
 .rotation-div:hover  .fade {
