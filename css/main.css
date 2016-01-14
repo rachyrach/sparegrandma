@@ -607,6 +607,7 @@ font: .65em "fira-mono", sans-serif;
     position: absolute;
     bottom: 0;
     left: 0;
+    z-index: 200;
 }
 
 /* --------------------- ON ROTATION ALBUM INFO EFFECT ----------------*/
@@ -614,10 +615,10 @@ font: .65em "fira-mono", sans-serif;
 
 @media (max-width: 650px) {
     
-/* .rotation-div .rotation-img {
- width: 100px;
-    height: 100px;
-}*/
+.rotation-div .rotation-img .fade .rotation-text{
+ width: 250px;
+    height: 250px;
+}
     
 .rotation-play {
    /*background-color: black;*/
