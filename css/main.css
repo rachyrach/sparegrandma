@@ -545,8 +545,8 @@ font: .65em "fira-mono", sans-serif;
     height: 150px;
     position: absolute;
     top: 0;
-    -webkit-transition: top ease-out 1s;
-transition: top ease-out 1s;
+    -webkit-transition: top ease-out .5s;
+    transition: top ease-out .5s;
 
 
 }
@@ -556,8 +556,8 @@ transition: top ease-out 1s;
     height: 150px;
     position: absolute;
     top: -150px;
-    -webkit-transition: top ease-in 1s;
-transition: top ease-in 1s;
+    -webkit-transition: top ease-in .5s;
+transition: top ease-in .5s;
 
 }
 
