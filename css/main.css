@@ -555,7 +555,7 @@ font: .65em "fira-mono", sans-serif;
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 150px;
+    top: 250px;
     -webkit-transition: top ease-out .3s;
     transition: top ease-out .3s;
 
