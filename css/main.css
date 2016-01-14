@@ -593,10 +593,7 @@ figure.infoslide img {
 }  
 
 figure.infoslide p a {
-    	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 30px;
+padding: 10px;
 }
 
  figure.infoslide p {
@@ -604,20 +601,18 @@ figure.infoslide p a {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(0,50px,0);
-	transform: translate3d(0,50px,0);
 }
 
 figure.infoslide:hover img {
 	-webkit-transform: translate3d(0,100%,0);
-	transform: translate3d(0,100%,0);
+	opacity: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
 }
 
 
 figure.infoslide:hover p {
 	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
 }
 
 /* --------------------- FORM STYLING --------------------- */
