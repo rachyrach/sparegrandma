@@ -577,6 +577,11 @@ font: .5em "fira-mono", sans-serif;
 
 figure.infoslide {
     background: black;
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: relative;
 }
 
 figure.infoslide img {
@@ -588,6 +593,7 @@ figure.infoslide img {
 
   figure.infoslide p {
   color: white;
+      font-size: .8em;
 }  
 
 figure.infoslide p a {
