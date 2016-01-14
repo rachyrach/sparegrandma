@@ -514,50 +514,56 @@ font: .65em "fira-mono", sans-serif;
 }*/
 
 
-.rotation {
+.rotation-window {
     max-width: 150px;
     max-height: 150px;
     float: left;
     margin-right: 5px;
     margin-bottom: 5px;
     position: relative;
-    background-color: black;
+    overflow:hidden;
+    
 }
 
+.rotation-div {
+    height: 300;
+    position: absolute;
+    top:0;
+    -webkit-transition: .9s;
+    transition: .9s;
+}
+
+.rotation-div:hover {
+    height: 300;
+    position: absolute;
+    top:0;
+    -webkit-transition: top 150px .9s;
+    transition: top 150px .9s;
+}
 
 .rotation-img {
     width: 150px;
     height: 150px;
-    opacity: 100%;
-    
+    position:relative;
 }
 
 
-.rotation a { position: relative; display: inline-block }
-
-.rotation a img {
-    width:150px;
-    height: 150px;
+.rotation-text {
+    width: 150px;
+    height: 150px; 
+    position:relative;
 }
 
-.rotation a p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    background: black;
-    color: #fff;
-    opacity:0;
-    transition:1s;
-    
+.rotation-text p  {
+    color: white;
+    font-size: .8em;
+    line-height:1em;
 }
 
-.rotation a:hover p {
-    opacity:1;
+.rotation-text a  {
+    font-size: .8em;
+    line-height:1em;
 }
-
 
 .rotation-play {
    /*background-color: black;*/
