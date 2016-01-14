@@ -594,6 +594,7 @@ font: .65em "fira-mono", sans-serif;
     font-family: "fira-mono", sans-serif;
     font-size: .8em;
     line-height:1em;
+    text-decoration: underline;
 }
 
 /*------------------------ ^^^^^^^^^^^TESTING^^^^^^^^^^^^^^^^ ----------------------*/
