@@ -28,7 +28,8 @@ thumbnail: /images/record-player2.gif
           
     <div class="rotation-div"> 
 
-                
+                <img class="rotation-img" src="/images/{{ albums.image }}"/>
+              
   	            <div class="rotation-text">
                             <p>Album: {{ albums.album_name }}</p>
                             <p>Artist: {{ albums.artist }}</p>
@@ -40,8 +41,7 @@ thumbnail: /images/record-player2.gif
                             {% endif %}
 						</div>
         
-                <img class="rotation-img" src="/images/{{ albums.image }}"/>
-             
+               
         
           <div class="rotation-play">
 <object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <!--- <a href="{{ albums.link }}">Full Album</a> --->
