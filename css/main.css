@@ -540,28 +540,6 @@ font: .65em "fira-mono", sans-serif;
 }
 
 
-/* .rotation-img {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 0px;
-    -webkit-transition: top ease-in .3s;
-    transition: top ease-in .3s;
-
-
-}
-
-.rotation-img:hover {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 250px;
-    -webkit-transition: top ease-out .3s;
-    transition: top ease-out .3s;
-
-} */
-
-
 .rotation-img {
     width: 150px;
     height: 150px;
@@ -573,20 +551,12 @@ font: .65em "fira-mono", sans-serif;
 		-ms-transition: all 300ms ease-out;	
 	    transition: all 300ms ease-out;
     
-
 }
-
-/*.rotation-img:hover {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-     
-}*/
 
 .rotation-div .rotation-text {
     width: 150px;
     height: 150px; 
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.95);
 	position: absolute;
 	color: #fff;
 	z-index: 100;
