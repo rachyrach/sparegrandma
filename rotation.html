@@ -27,10 +27,7 @@ thumbnail: /images/record-player2.gif
       <li> 
     <div class="rotation-div">
         	<figure class="infoslide">
-                
-                <img class="rotation-img" src="/images/{{ albums.image }}">
-          
-						<figcaption>
+                <figcaption>
                             <p>Album: {{ albums.album_name }}</p>
                             <p>Artist: {{ albums.artist }}</p>
                             {% if albums.spotify %}
@@ -40,6 +37,9 @@ thumbnail: /images/record-player2.gif
                             <a href="{{ albums.link }}">Learn More</a>
                             {% endif %}
 						</figcaption>
+                <img class="rotation-img" src="/images/{{ albums.image }}">
+          
+						
              </figure>
         
           <div class="rotation-play">
