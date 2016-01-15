@@ -610,7 +610,24 @@ font: .65em "fira-mono", sans-serif;
 
 @media (max-width: 650px) {
     
-.rotation-div .rotation-img .fade .rotation-text{
+.rotation-div {
+ width: 250px;
+    height: 250px;
+}
+    
+    
+   .rotation-img {
+ width: 250px;
+    height: 250px;
+}
+    
+    
+    .rotation-div .rotation-text{
+ width: 250px;
+    height: 250px;
+}
+
+        .rotation-div .fade {
  width: 250px;
     height: 250px;
 }
