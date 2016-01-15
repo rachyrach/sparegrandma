@@ -560,7 +560,7 @@ font: .65em "fira-mono", sans-serif;
 	padding: 5px;
 }
 
-.rotation-div:hover  .fade {
+.rotation-div:hover, .hover_effect, .fade {
 	opacity: 1;
 }
 
@@ -576,6 +576,12 @@ font: .65em "fira-mono", sans-serif;
     font-size: .8em;
     line-height:1em;
     text-decoration: underline;
+}
+
+
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;        
 }
 
 /*------------------------ END FADE ----------------------*/
@@ -619,7 +625,7 @@ font: .65em "fira-mono", sans-serif;
     height: 250px;
 }
     
-    .rotation-div:hover   .fade {
+    .rotation-div:hover, .hover_effect, .fade {
 	opacity: 1;
 }
     
