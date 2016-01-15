@@ -505,20 +505,7 @@ font: .65em "fira-mono", sans-serif;
   padding-top: 10px;
 }
 
-.rotation {
-    height: 150px;
-    height: 150px;
-    float: left;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    position: relative;
-}
 
-.rotation-imageonly {
-    width: 150px;
-    height: 150px;
- 
-}
 
 /*------------------------ FADE ----------------------*/
 
@@ -610,26 +597,66 @@ font: .65em "fira-mono", sans-serif;
 
 @media (max-width: 650px) {
     
-.rotation-div {
- width: 250px;
+rotation-div {
     height: 250px;
-}
-    
-    
-   .rotation-img {
- width: 250px;
-    height: 250px;
-}
-    
-    
-    .rotation-div .rotation-text{
- width: 250px;
-    height: 250px;
+    width: 250px;
+
 }
 
-        .rotation-div .fade {
- width: 250px;
+
+.rotation-img {
+    width: 250px;
     height: 250px;
+    position: absolute;
+	left: 0;
+	-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+	    transition: all 300ms ease-out;
+    
+}
+
+.rotation-div .rotation-text {
+    width: 250px;
+    height: 250px; 
+    background-color: rgba(0,0,0,0.95);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+		-webkit-transition: all 300ms ease-out;
+		-moz-transition: all 300ms ease-out;
+		-o-transition: all 300ms ease-out;
+		-ms-transition: all 300ms ease-out;	
+		transition: all 300ms ease-out;
+	left: 0;
+
+}
+
+.rotation-div .fade {
+	opacity: 0;
+	width: 250px;
+	height: 250px;
+	text-align: left;
+	padding: 5px;
+}
+
+.rotation-div:hover  .fade {
+	opacity: 1;
+}
+
+
+.rotation-text p  {
+    color: white;
+    font-size: 1em;
+    line-height:1.2em;
+}
+
+.rotation-text a  {
+    font-family: "fira-mono", sans-serif;
+    font-size: 1em;
+    line-height:1.2em;
+    text-decoration: underline;
 }
     
 .rotation-play {
