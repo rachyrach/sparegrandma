@@ -623,11 +623,11 @@ font: .65em "fira-mono", sans-serif;
     height: 250px;
 }
     
-    .rotation-div:hover .fade {
+    .rotation-div:hover .rotation-div:active .fade {
 	opacity: 1;
- /*   -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-user-select: none;
-    -webkit-touch-callout: none */
+    -webkit-touch-callout: none 
 }
     
 .rotation-play {
