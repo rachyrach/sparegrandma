@@ -633,6 +633,18 @@ font: .65em "fira-mono", sans-serif;
     left: 0;
 }
     
+    .rotation-text p  {
+    color: white;
+    font-size: 1em;
+    line-height:1.2em;
+}
+
+.rotation-text a  {
+    font-family: "fira-mono", sans-serif;
+   font-size: 1em;
+    line-height:1.2em;
+    text-decoration: underline;
+}
     
 .copyright {
   color: rgba(255,100,100,.9);
