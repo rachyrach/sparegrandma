@@ -560,11 +560,8 @@ font: .65em "fira-mono", sans-serif;
 	padding: 5px;
 }
 
-.rotation-div:hover, .rotation-div:active .fade {
+.rotation-div:hover, .fade {
 	opacity: 1;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    -webkit-user-select: none;
-    -webkit-touch-callout: none
 }
 
 
@@ -615,9 +612,12 @@ font: .65em "fira-mono", sans-serif;
 }
     
     
-    .rotation-div .rotation-text {
- width: 250px;
+    .rotation-div .rotation-div:active .rotation-text {
+    width: 250px;
     height: 250px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -webkit-touch-callout: none
 }
 
         .rotation-div .fade {
