@@ -560,7 +560,7 @@ font: .65em "fira-mono", sans-serif;
 	padding: 5px;
 }
 
-.rotation-div:hover, .fade {
+.rotation-div:hover .fade {
 	opacity: 1;
 }
 
@@ -612,7 +612,7 @@ font: .65em "fira-mono", sans-serif;
 }
     
     
-    .rotation-div  .rotation-text {
+    .rotation-div .rotation-text {
     width: 250px;
     height: 250px;
 
