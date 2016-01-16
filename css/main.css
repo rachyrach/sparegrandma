@@ -638,8 +638,11 @@ font: .65em "fira-mono", sans-serif;
 }
   
     
-    .listen {
+.listen {
     width: 45px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+        
 }
 .rotation-play {
    /*background-color: black;*/
