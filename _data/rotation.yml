@@ -20,7 +20,7 @@
 - album_name: "Fading Frontier"
   artist: Deerhunter
   image: album03.jpg
-  youtube: https://www.youtube.com/watch?v=CG6jk5Q90DA
+  youtube: https://www.youtube.com/watch?v=KbGxB8MGY_s&index=5&list=PLpMUJrYyZ5607cTV0xbUn9PFY6uwMn3-R
   soundcloud:
   spotify: https://play.spotify.com/album/0y5XgOUEiJSSIMxC4ALRAC
   link:
@@ -43,7 +43,7 @@
 - album_name: "Depression Cherry"
   artist: Beach House
   image: album06.jpg
-  youtube: https://www.youtube.com/watch?v=NFhJRTdmviA
+  youtube: https://www.youtube.com/watch?v=Cy5MiOqarYs
   soundcloud:
   spotify: https://play.spotify.com/album/35vTE3hx3AAXtM6okpJIIt
   link:
@@ -94,5 +94,5 @@
   youtube: https://www.youtube.com/watch?v=a-jzuHhVfnc
   soundcloud:
   spotify: https://play.spotify.com/album/3NCXxADFebp2Z7OMAnt6KE
-  link:
+  link: https://palehound.bandcamp.com/
     
