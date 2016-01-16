@@ -595,6 +595,13 @@ font: .65em "fira-mono", sans-serif;
     z-index: 200;
 }
 
+.listen {
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
 
 
 

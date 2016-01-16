@@ -38,8 +38,15 @@ document.addEventListener("touchstart", function(){}, true);
   	            <div class="rotation-text fade">
                             <p>Album: {{ albums.album_name }}</p>
                             <p>Artist: {{ albums.artist }}</p>
+                            <p>Listen:</p>
                             {% if albums.spotify %}
-                            <a href="{{ albums.spotify }}" target="_blank" >Listen on Spotify >></a>
+                            <a href="{{ albums.spotify }}" target="_blank" ><img src="/images/listen-spotify.png" class="listen"/></a>
+                            {% endif %}
+                            {% if albums.youtube %}
+                            <a href="{{ albums.youtube }}" target="_blank" ><img src="/images/listen-                                   youtube.png" class="listen"/></a>
+                            {% endif %}
+                            {% if albums.youtube %}
+                            <a href="{{ albums.soundcloud }}" target="_blank" ><img src="/images/listen-                                   soundcloud.png" class="listen"/></a>
                             {% endif %}
                             {% if albums.link %}
                             <a href="{{ albums.link }}" target="_blank">Learn More >></a>
@@ -48,7 +55,7 @@ document.addEventListener("touchstart", function(){}, true);
         
              
         
-          <div class="rotation-play">
+          <!----- <div class="rotation-play">
 <object type="application/x-shockwave-flash" width="30" height="25" data="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"><param name="movie"  value="https://www.youtube.com/v/{{ albums.youtube }}?version=2&theme=dark"/><param name="wmode" value="transparent"/></object> <!--- <a href="{{ albums.link }}">Full Album</a> --->
         
         </div>
