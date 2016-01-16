@@ -39,7 +39,7 @@ document.addEventListener("touchstart", function(){}, true);
                             <p>Album: {{ albums.album_name }}</p>
                             <p>Artist: {{ albums.artist }}</p>
                             <p>Listen:</p>
-                            <div>{% if albums.spotify %}
+                            {% if albums.spotify %}
                             <a href="{{ albums.spotify }}" target="_blank" ><img src="/images/listen-spotify.png" class="listen"/></a>
                             {% endif %}
                             {% if albums.youtube %}
@@ -47,9 +47,10 @@ document.addEventListener("touchstart", function(){}, true);
                             {% endif %}
                             {% if albums.soundcloud %}
                             <a href="{{ albums.soundcloud }}" target="_blank" ><img src="/images/listen-soundcloud.png" class="listen"/></a>
-                            {% endif %}</div>
+                            {% endif %}
+                                <br style="clear:both" />
                             {% if albums.link %}
-                    <p><a href="{{ albums.link }}" target="_blank">Learn More >></a></p>
+                    <a href="{{ albums.link }}" target="_blank">Learn More >></a>
                             {% endif %}
 						</div>
         
