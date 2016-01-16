@@ -636,7 +636,11 @@ font: .65em "fira-mono", sans-serif;
     -webkit-user-select: none;
     -webkit-touch-callout: none 
 }
+  
     
+    .listen {
+    width: 45px;
+}
 .rotation-play {
    /*background-color: black;*/
     width: 30px;
