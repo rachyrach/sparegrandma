@@ -5,7 +5,10 @@
 <div class="container">
 {% assign author = site.authors[page.author] %} 
     <div class="col-md-12"><h1>{{ page.title }}</h1>
-        <p class="date">By {{ author.display_name }}</p>
+        <p class="date">By {{ author.display_name }}
+        <!---- DISQUS COMMENT COUNT -----> 
+<a href="{{post.id}}" data-disqus-identifier="{{post.id}}">Leave a comment</a>
+        </p>
      <div class="list margin-large">
     {{ content }}
 </br></br>
@@ -52,8 +55,6 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
-
-
 
 <script id="dsq-count-scr" src="//rachyrach12.disqus.com/count.js" async></script>
 
