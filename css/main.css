@@ -35,7 +35,7 @@ nav-custom label strong {
   right: 0px;
   top: 0px;
   transition: color 250ms ease;
-  font-weight:bold;
+  
 }
 nav-custom label b {
   width: 50px;
@@ -385,7 +385,7 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     font: 6em "league-gothic", "arial-narrow", sans-serif;
     text-transform: uppercase;
         color: #000;
-        font-weight: bold;
+      
 }
 
     h2 {
@@ -393,14 +393,14 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
     text-transform: uppercase;
          color: #000;
         padding-bottom: 20px;
-        font-weight: bold;
+      
 }
 
     h3 {
     font: 1.1em "league-gothic", "arial-narrow", sans-serif;
     text-transform: uppercase;
          color: #000;
-        font-weight: bold;
+        
 }
 
 p {
@@ -433,6 +433,7 @@ p {
 	text-transform: uppercase;
     padding: 10px 20px;
     transition: background 250ms ease;
+    font-family: "fira-mono", "lucida-console", monospace;
 }
 
 .sg-btn:hover {
@@ -750,6 +751,8 @@ font: .5em "fira-mono", "lucida-console", monospace;
     text-transform: uppercase;
     margin-bottom:0px;
     background-color: #000;
+    font-family: "fira-mono", "lucida-console", monospace;
+    
 
 }
  
