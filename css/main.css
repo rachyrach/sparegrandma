@@ -91,7 +91,7 @@ nav menu li:first-child {
 
 nav menu li a {
   padding: 10px 0 3px 0;
-  font: 18px "fira-mono",sans-serif;
+  font: 18px "fira-mono", "lucida-console", monospace;
   text-transform: uppercase;
   text-decoration: none;
   text-align: left;
@@ -382,26 +382,29 @@ only screen and (min-device-width: 768px) and (max-device-width: 1024px)
 
 
     h1 {
-    font: 6em "league-gothic", "Impact", sans-serif;
+    font: 6em "league-gothic", "arial-narrow", sans-serif;
     text-transform: uppercase;
         color: #000;
+        font-weight: bold;
 }
 
     h2 {
-    font: 2em "league-gothic", "Impact", sans-serif;
+    font: 2em "league-gothic", "arial-narrow", sans-serif;
     text-transform: uppercase;
          color: #000;
         padding-bottom: 20px;
+        font-weight: bold;
 }
 
     h3 {
-    font: 1.1em "league-gothic", "Impact", sans-serif;
+    font: 1.1em "league-gothic", "arial-narrow", sans-serif;
     text-transform: uppercase;
          color: #000;
+        font-weight: bold;
 }
 
 p {
-    font: 1.1em "fira-mono",sans-serif;
+    font: 1.1em "fira-mono", "lucida-console", monospace;
     color: #666;
     padding-bottom: 10px;
 }
@@ -439,7 +442,7 @@ p {
 
 .date {
   color: #e72d00;
-font: 1.1em "fira-mono", sans-serif;
+font: 1.1em "fira-mono", "lucida-console", monospace;
 }
 
 ul.post {
@@ -453,7 +456,7 @@ ul {
     margin-left: 0;
     padding-right: 0;
     list-style-type: none;
-    font: 1.1em "fira-mono",sans-serif;
+    font: 1.1em "fira-mono", "lucida-console", monospace;
     color: #666;
     padding-bottom: 10px;
     line-height: 2em;
@@ -478,7 +481,7 @@ ul {
 
 .copyright {
   color: rgba(255,100,100,.9);
-font: .65em "fira-mono", sans-serif; 
+font: .65em "fira-mono", "lucida-console", monospace; 
     position:fixed;
     text-align: right;
     bottom: 0;
@@ -573,7 +576,7 @@ font: .65em "fira-mono", sans-serif;
 }
 
 .rotation-text a  {
-    font-family: "fira-mono", sans-serif;
+    font-family: "fira-mono", "lucida-console", monospace;
     font-size: .8em;
     line-height:1em;
     text-decoration: underline;
@@ -662,7 +665,7 @@ font: .65em "fira-mono", sans-serif;
 }
 
 .rotation-text a  {
-    font-family: "fira-mono", sans-serif;
+    font-family: "fira-mono", "lucida-console", monospace;
    font-size: 1em;
     line-height:1.2em;
     text-decoration: underline;
@@ -670,7 +673,7 @@ font: .65em "fira-mono", sans-serif;
     
 .copyright {
   color: rgba(255,100,100,.9);
-font: .5em "fira-mono", sans-serif; 
+font: .5em "fira-mono", "lucida-console", monospace; 
     position:fixed;
     text-align: right;
     bottom: 0;
