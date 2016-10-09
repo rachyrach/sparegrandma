@@ -1,12 +1,12 @@
 # for youtube add url NOT embed code
 # save album image as album number, do not change image info on this page! 
 # Use spotify url NOT embed code
-- album_name: "Enter the Vaselines"
-  artist: The Vaselines
-  image: enter-the-vaselines.jpg
-  youtube: https://www.youtube.com/watch?v=SQi8MMWT2TE  
+- album_name: "We Cool?"
+  artist: Jeff Rosenstock
+  image: Jeff_Rosenstock_-_We_Cool?.jpg
+  youtube: https://www.youtube.com/watch?v=z7MPzv78cWs  
   soundcloud: 
-  spotify: https://open.spotify.com/album/47D3pdpkbeQSfXDUUGIlJE
+  spotify: https://open.spotify.com/album/3hv2EV5JmcdPjS97hGsHuY
   link:
   
 - album_name: "Are You Alone?"
