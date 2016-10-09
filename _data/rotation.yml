@@ -32,13 +32,13 @@
   soundcloud:
   spotify: https://open.spotify.com/album/5M8xQaQZuW2LZGVXZ3mlKN
   
-- album_name: "Divers"
-  artist: Joanna Newsom
-  image: album05.jpg 
-  youtube: https://www.youtube.com/watch?v=48xlgXqQKLA
+- album_name: "Deluxe"
+  artist: Omni
+  image: deluxe.jpg 
+  youtube: https://www.youtube.com/watch?v=qLP1FKjGyJ0
   soundcloud:
-  spotify:
-  link: http://www.dragcity.com/artists/joanna-newsom
+  spotify: https://open.spotify.com/album/6i1BbUp2bTavuxlxC59tzS
+  link: 
   
 - album_name: "Depression Cherry"
   artist: Beach House
