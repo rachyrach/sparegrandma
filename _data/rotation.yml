@@ -1,12 +1,12 @@
 # for youtube add url NOT embed code
 # save album image as album number, do not change image info on this page! 
 # Use spotify url NOT embed code
-- album_name: "VEGA INTL NIGHT SCHOOL"
-  artist: Neon Indian
-  image: album01.jpg
-  youtube: https://www.youtube.com/watch?v=b1JHawvhtrI
+- album_name: "Enter the Vaselines"
+  artist: The Vaselines
+  image: enter-the-vaselines.jpg
+  youtube: https://www.youtube.com/watch?v=SQi8MMWT2TE  
   soundcloud: 
-  spotify: https://play.spotify.com/album/5jgrzAcDHJ5Nb2viW52OlR
+  spotify: https://play.spotify.com/album/47D3pdpkbeQSfXDUUGIlJE
   link:
   
 - album_name: "Are You Alone?"
