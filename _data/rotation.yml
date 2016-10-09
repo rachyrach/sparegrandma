@@ -56,15 +56,7 @@
   spotify: https://open.spotify.com/album/3e7vtKJ3m1zVh38VGq2g3H
   link:
   
-- album_name: "Telefone"
-  artist: Noname
-  image: telefonecorrect.jpg
-  youtube: https://www.youtube.com/watch?v=eSX7LmESZQ4
-  soundcloud:
-  spotify: https://open.spotify.com/album/18Scpsg5OV1iYNtSaCsjwz
-  link:
-  
-- album_name: "Pool"
+ - album_name: "Pool"
   artist: Porches
   image: pool.jpg
   youtube: https://www.youtube.com/watch?v=O2rv_w944tY
@@ -72,6 +64,14 @@
   spotify: https://open.spotify.com/album/7kNB1l6WPFlZxH5MtgtW3j
   link:
   
+- album_name: "Telefone"
+  artist: Noname
+  image: telefonecorrect.jpg
+  youtube: https://www.youtube.com/watch?v=eSX7LmESZQ4
+  soundcloud:
+  spotify: https://open.spotify.com/album/18Scpsg5OV1iYNtSaCsjwz
+  link:
+ 
 - album_name: "The Agent Intellect"
   artist: Protomartyr
   image: album10.jpg
