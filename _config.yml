@@ -10,9 +10,9 @@ baseurl: ""
 paginate: 10
 
 future: true
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
-pygments: true
+highligher: rouge
 
 
 owner:
