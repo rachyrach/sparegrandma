@@ -1,12 +1,12 @@
 # for youtube add url NOT embed code
 # save album image as album number, do not change image info on this page! 
 # Use spotify url NOT embed code
-- album_name: "We Cool?"
+- album_name: "WORRY."
   artist: Jeff Rosenstock
-  image: WeCoolJR.jpg
+  image: worry.jpg
   youtube: https://www.youtube.com/watch?v=z7MPzv78cWs  
   soundcloud: 
-  spotify: https://open.spotify.com/album/3hv2EV5JmcdPjS97hGsHuY
+  spotify: https://open.spotify.com/album/25DyIBkqzuy4YD5BgJEgm0
   link:
   
 - album_name: "Schmilco"
@@ -88,11 +88,11 @@
   spotify: https://open.spotify.com/album/1jKclz9xknsgxOK9XGAXRi
   link:
   
-- album_name: "Malibu"
-  artist: Anderson .Paak
-  image: malibu.jpg
-  youtube: https://www.youtube.com/watch?v=ferZnZ0_rSM
+- album_name: "Cody"
+  artist: Joyce Manor
+  image: cody.jpg
+  youtube: https://www.youtube.com/watch?v=Ny0BJfwXEcc
   soundcloud:
-  spotify: https://open.spotify.com/album/4VFG1DOuTeDMBjBLZT7hCK
+  spotify: https://open.spotify.com/album/3ZxDkGPmvyDQhxchmlNXA1
   link: 
     
