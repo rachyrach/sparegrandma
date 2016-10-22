@@ -17,6 +17,7 @@
   soundcloud: 
   spotify: https://open.spotify.com/album/2s037WsNDbSTIEb7OJjT0a
   link: 
+  ffo: Uncle Tupelo, Ryan Adams, Yo La Tengo
   
 - album_name: "Mangy Love"
   artist: Cass McCombs
@@ -25,6 +26,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/2gBR8Ql9GjUrNIsX97sFld
   link:
+  ffo: Wilco, Kurt Vile, Kevin Morby
   
 - album_name: "MY WOMAN"
   artist: Angel Olsen
@@ -32,6 +34,7 @@
   youtube: https://www.youtube.com/watch?v=nleRCBhLr3k
   soundcloud:
   spotify: https://open.spotify.com/album/5M8xQaQZuW2LZGVXZ3mlKN
+  ffo: Waxahatchee, Bill Callahan, Bonnie Prince Billy
   
 - album_name: "Deluxe"
   artist: Omni
@@ -40,6 +43,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/6i1BbUp2bTavuxlxC59tzS
   link: 
+  ffo: The Strokes, Deerhunter, Joy Division
   
 - album_name: "I Had A Dream That You Were Mine"
   artist: Hamilton Leithauser + Rostam
@@ -48,6 +52,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/2TDuXjtpO4tdvm86KVNMk0
   link:
+  ffo: Vampire Weekend, The Walkmen, Beach House
   
 - album_name: "Atrocity Exhibition"
   artist: Danny Brown
@@ -56,6 +61,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/3e7vtKJ3m1zVh38VGq2g3H
   link:
+  ffo: Das Racist, Eminem, Earl Sweatshirt
   
 - album_name: "Yes Lawd!"
   artist: NxWorries
@@ -64,6 +70,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/7v4ntSy3suhIs5Vy96GXVZ
   link:
+  ffo: 
   
 - album_name: "Telefone"
   artist: Noname
@@ -72,6 +79,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/18Scpsg5OV1iYNtSaCsjwz
   link:
+  ffo: Chance the Rapper, Mick Jenkins, Earl Sweatshirt
  
 - album_name: "Faux Ferocious"
   artist: Faux Ferocious
@@ -80,6 +88,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/7A2GLk9DjqWcpXO64U2YXi
   link:
+  ffo: Parquet Courts, Velvet Underground, The John Spencer Blues Explosion
   
 - album_name: "Dusk"
   artist: Ultimate Painting
@@ -88,6 +97,7 @@
   soundcloud:
   spotify: https://open.spotify.com/album/5JQq4hKrE4Cd0ib5eKY0Gg
   link:
+  ffo: Velvet Underground, Belle & Sebastian, Jens Lekman
   
 - album_name: "Cody"
   artist: Joyce Manor
@@ -96,4 +106,5 @@
   soundcloud:
   spotify: https://open.spotify.com/album/3ZxDkGPmvyDQhxchmlNXA1
   link: 
+  ffo: PUP, American Football, Modern Baseball
     
