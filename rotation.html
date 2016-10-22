@@ -52,6 +52,9 @@ document.addEventListener("touchstart", function(){}, true);
                             {% if albums.link %}
                     <a href="{{ albums.link }}" target="_blank">Learn More >></a>
                             {% endif %}
+			    {% if albums.ffo %}
+			    <p>{{ albums.ffo }}"</p>
+                            {% endif %}
 						</div>
         
              
