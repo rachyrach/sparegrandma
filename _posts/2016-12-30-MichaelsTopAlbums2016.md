@@ -1,4 +1,8 @@
-Michael's Top Albums of 2016
+---
+layout: post
+title: "Michael's Top Albums of 2016"
+author: michael
+---
 
 1. Parquet Courts - Human Performance
 2. Whitney - Light Upon the Lake
