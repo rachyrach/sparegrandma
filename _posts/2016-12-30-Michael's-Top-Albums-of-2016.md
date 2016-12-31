@@ -17,6 +17,7 @@ author: michael
 - Wilco - Schmilco
 - Nx Worries - Yes Lawd
 - Hamilton Leithauser + Rostam - I Had a Dream That You Were Mine
+- Jeff Parker - The New Breed
 - Jeff Rosenstock - WORRY.
 - Porches - Pool/Water
 - Faux Ferocious - Cloning the Rubicon
