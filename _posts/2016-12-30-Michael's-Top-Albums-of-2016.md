@@ -15,12 +15,12 @@ author: michael
 - Noname - Telefone
 - Anderson Paak - Malibu
 - Wilco - Schmilco
+- Faux Ferocious - Cloning the Rubicon
 - Nx Worries - Yes Lawd
 - Hamilton Leithauser + Rostam - I Had a Dream That You Were Mine
 - Jeff Parker - The New Breed
 - Jeff Rosenstock - WORRY.
 - Porches - Pool/Water
-- Faux Ferocious - Cloning the Rubicon
 - Jay Som - Turn Into
 - Run the Jewels - Run the Jewels 3
 - Cass McCombs - Mangy Love
