@@ -31,12 +31,13 @@ author: michael
 - Sturgill Simpson - A Sailor's Guide to Earth
 - PUP - The Dream is Over
 - William Tyler - Modern Country
+- Pinegrove - Cardinal
 - Kevin Morby - Singing Saw
 - Frank Ocean - Blonde
+- Young Thug - JEFFERY
 - Solange - A Seat at the Table
 - Weyes Blood - A Front Row Seat to Earth
-- Pinegrove - Cardinal
-- Young Thug - JEFFERY
 - Mothers - When You Walk a Long Distance You Are Tired
 - Big Thief - Masterpiece
+- Kanye West - The Life of Pablo
 - Blood Orange - Freetown Sound
